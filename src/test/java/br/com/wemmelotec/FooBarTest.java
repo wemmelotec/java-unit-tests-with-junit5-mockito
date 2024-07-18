@@ -9,7 +9,7 @@ class FooBarTest {
 	@Test
 	void test() {
 		
-		//primeiro comando que vai gerar uma falha
+		//primeiro comando que vai gerar uma falha, isso é uma assertions para garantir que vai falhar pois ainda não foi implementado
 		//fail("Not yet implemented");
 		
 		//segundo comando que não vai ter falha, apenas o sysout
