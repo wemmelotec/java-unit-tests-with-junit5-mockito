@@ -15,7 +15,7 @@ class SimpleMathTest {
 		//e verificar se é o que eu esperava
 		//como o assertEquals é static eu posso imortar ela direto pra cá
 		double expected = 8.2D;
-		assertEquals(expected, actual);
+		assertEquals(expected, actual,"6.2 + 2 não produzio o resultado esperado");
 		
 		//no primeiro teste deu tudo certo, agora supunho que um programador no futuro mude a lógica do método sum
 		//colocando para multiplicar, por exemplo, aí ele vai falhar.
