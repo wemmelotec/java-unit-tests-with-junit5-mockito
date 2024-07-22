@@ -8,10 +8,15 @@ class SimpleMathTest {
 
 	@Test
 	void testSum() {
+		//Given
 		//primeiro instaciar a classe que eu quero testar
 		SimpleMath math = new SimpleMath();
+		
+		//When
 		//vou chamar uma operação no SimpleMath para testar
 		Double actual = math.sum(6.2D, 2D);
+		
+		//Assert
 		//e verificar se é o que eu esperava
 		//como o assertEquals é static eu posso imortar ela direto pra cá
 		double expected = 8.2D;
